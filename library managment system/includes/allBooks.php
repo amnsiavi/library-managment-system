@@ -1,6 +1,6 @@
 <html>
 <body bgcolor="87ceeb">
-<center><h2>Library Management System</h2></center>
+<center><h2 style="font-family: cursive;">Library Management System</h2></center>
 <br>
 
 <?php
