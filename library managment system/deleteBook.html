@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+<body bgcolor="87ceeb"  style="font-family: cursive; background-image: url(bg-image.jpg); background-repeat: no-repeat; background-size: cover; color: red; background-blend-mode: lighten">
+<center><h2>Library Management System</h2></center>
+<form action = "includes/delete.inc.php" method="get">
+<br>
+<center>Enter the ISBN NO  of the book to be Deleted :
+<input type="text" name="delete" size="48">
+<br></br>
+<input type="submit" value="Delete">
+<input type="reset" value="Reset">
+</center>
+<br>
+</form>
+<form action="includes/allBooks.php" method="post" style="margin-left: 65%; margin-bottom: 10%">
+    <button type="submit" name="submit">Display all books</button>
+    </form>    
+  
+</body>
+</html>
